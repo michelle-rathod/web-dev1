@@ -1,6 +1,4 @@
-/* what i have done is I’ve done is reset the margins and padding 
-of every element using the universal selector (*) 
-and applied some basic styles to both unordered lists. */
+
 *{
 	padding: 0;
 	margin: 0;
@@ -21,35 +19,7 @@ body{
 	z-index: -1;
 }
 
-/* In CSS, you can specify sizes or lengths of elements using various units of measure. 
-The units of measure that you’ll find in some Elementor options include 
-PX, EM, REM, %, VW, and VH, although there are several more available in CSS. 
-Not every Elementor element will offer all of these units. 
-Elementor only presents the options that make the most sense for the given element. */
 
-
-/* Absolute Units
-
-PX: Pixels (px) are considered absolute units, 
-although they are relative to the DPI and resolution of the viewing device. 
-But on the device itself, the PX unit is fixed and does not change based on any other element. 
-Using PX can be problematic for responsive sites, 
-but they are useful for maintaining consistent sizing for some elements. 
-If you have elements that should not be resized, then using PX is a good choice.
- */
-
- /* Relative Units
-
-EM: Relative to the parent element
-REM: Relative to the root element (HTML tag)
-%: Relative to the parent element
-VW: Relative to the viewport’s width
-VH: Relative to the viewport’s height
-
-Unlike PX, relative units like %, EM, and REM are better suited to responsive design 
-and also help meet accessibility standards. 
-Relative units scale better on different devices because 
-they can scale up and down according to another element’s size. */
 .container{
     width: 100vw;
     height: 100vh;
@@ -156,7 +126,7 @@ form{
 	width: 50%;
 }
 
-/* Moves the font up and makes the font size small on click input (adds focus class from js) */
+
 .input-div.focus > div > h5{
 	top: -5px;
 	font-size: 15px;
@@ -189,7 +159,7 @@ a{
 	display: block;
 	text-align: right;
 	text-decoration: none;
-	color: red;
+	color: black;
 	font-size: 0.9rem;
 	transition: .3s;
 }
