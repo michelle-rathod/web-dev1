@@ -189,7 +189,7 @@ a{
 	display: block;
 	text-align: right;
 	text-decoration: none;
-	color: black;
+	color: red;
 	font-size: 0.9rem;
 	transition: .3s;
 }
